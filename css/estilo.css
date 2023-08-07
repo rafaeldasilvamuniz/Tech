@@ -89,7 +89,9 @@ h3 {
 
 @media screen and (max-width: 1023px) {
 
-    table,#area-principal,#tabela,#nomeprod,#corpo,#carousel-exemplo,#area-logo,#area-cabecalho{
+    /*#cont,#table,#area-principal,#tabela,#nomeprod,#corpo,#carousel-exemplo,#area-logo,#area-cabecalho*/
+	#area-cabecalho,#area-logo,#carousel-exemplo,#tabela,#cont
+	{
 
         width: 80%;
 
@@ -98,7 +100,8 @@ h3 {
 }
 @media screen and (max-width: 640px) {
 
-	table,#area-principal,#tabela,#nomeprod,#corpo,#carousel-exemplo,#area-logo,#area-cabecalho
+	/*#cont,#table,#area-principal,#tabela,#nomeprod,#corpo,#carousel-exemplo,#area-logo,#area-cabecalho*/
+	#area-cabecalho,#area-logo,#carousel-exemplo,#tabela,#cont
 
 	{
 
@@ -111,7 +114,7 @@ h3 {
     }
 
 
-    #area-postagens {
+   /* #area-postagens {
 
         width: 100%;
 
@@ -127,7 +130,7 @@ h3 {
 
         float: none;
 
-    }
+    }*/
 
 }
 
